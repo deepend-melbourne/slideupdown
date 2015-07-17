@@ -1,13 +1,18 @@
+# slideupdown.js
+
 Angular JS directive that slides the element up and down using css3 animation.
 The height gets correctly adjusted if content gets added to or removed after 
 a transition occurs.
 
-USAGE:
+## USAGE:
 
+```html
 <div slide-updown="boolean expression" /></div>
+````
 
 You must also add transition css to your project:
 
+```css
 .slideupdown-wrapper {
     height: 0px;
     overflow-y: hidden;
@@ -17,4 +22,5 @@ You must also add transition css to your project:
     transition-property: height;
     transition-duration: 0.5s;
 }
+```
 
